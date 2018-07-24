@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a9635225f9f0ad2aa119a7c840d63389/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/73a2032a867d5fc5b5a51bd9cebef540/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-android:1.10.0-rc0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.10.0-rc0.aar/23bdbe8e6e02689e9f8d98d720d655f1/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/731a1e8ea2ddd9f598015e1bcee11c03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f98fd9a32b867c728d4803989d6e140f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2665b26b5380320f108fecc5119abfb8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9a35e519f71218d763dd06f70771867b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/055d05a91b8607c79a6849fe056bf9ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b3fb6fe2317e94510bf6d75b3f50964c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2cbfbbc04266467d4568c4aa6009a0ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a97a66e171713baead9b798f76a07ab5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/caa0040c451c302de1da33e3eb2c8e32/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9f907c390b78c3e73c0c7dcaa93ef80b/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:11-43
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:3:11-69
+application
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/73a2032a867d5fc5b5a51bd9cebef540/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/73a2032a867d5fc5b5a51bd9cebef540/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.10.0-rc0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.10.0-rc0.aar/23bdbe8e6e02689e9f8d98d720d655f1/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.10.0-rc0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.10.0-rc0.aar/23bdbe8e6e02689e9f8d98d720d655f1/AndroidManifest.xml:5:5-6:19
+	android:supportsRtl
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:10:9-40
+activity#de.fohgel.cartoonfisch.MainActivity
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a9635225f9f0ad2aa119a7c840d63389/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a9635225f9f0ad2aa119a7c840d63389/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/73a2032a867d5fc5b5a51bd9cebef540/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/73a2032a867d5fc5b5a51bd9cebef540/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/731a1e8ea2ddd9f598015e1bcee11c03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/731a1e8ea2ddd9f598015e1bcee11c03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f98fd9a32b867c728d4803989d6e140f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f98fd9a32b867c728d4803989d6e140f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2665b26b5380320f108fecc5119abfb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2665b26b5380320f108fecc5119abfb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9a35e519f71218d763dd06f70771867b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9a35e519f71218d763dd06f70771867b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/055d05a91b8607c79a6849fe056bf9ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/055d05a91b8607c79a6849fe056bf9ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b3fb6fe2317e94510bf6d75b3f50964c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b3fb6fe2317e94510bf6d75b3f50964c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2cbfbbc04266467d4568c4aa6009a0ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2cbfbbc04266467d4568c4aa6009a0ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a97a66e171713baead9b798f76a07ab5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a97a66e171713baead9b798f76a07ab5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/caa0040c451c302de1da33e3eb2c8e32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/caa0040c451c302de1da33e3eb2c8e32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9f907c390b78c3e73c0c7dcaa93ef80b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/alphaiota/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9f907c390b78c3e73c0c7dcaa93ef80b/AndroidManifest.xml:20:5-44
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		ADDED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/alphaiota/workspace/cartoonfisch/app/src/main/AndroidManifest.xml:2:1-20:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE

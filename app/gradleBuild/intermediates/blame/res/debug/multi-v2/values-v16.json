@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/alphaiota/workspace/cartoonfisch/app/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/alphaiota/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a9635225f9f0ad2aa119a7c840d63389/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/alphaiota/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b3fb6fe2317e94510bf6d75b3f50964c/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
