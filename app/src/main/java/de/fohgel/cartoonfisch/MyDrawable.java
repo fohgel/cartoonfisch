@@ -1,3 +1,12 @@
+package de.fohgel.cartoonfisch;
+
+import android.graphics.Canvas;
+import android.graphics.ColorFilter;
+import android.graphics.Paint;
+import android.graphics.PixelFormat;
+import android.graphics.drawable.Drawable;
+import android.support.annotation.NonNull;
+
 public class MyDrawable extends Drawable {
     private final Paint mRedPaint;
 
@@ -8,14 +17,14 @@ public class MyDrawable extends Drawable {
     }
 
     @Override
-    public void draw(Canvas canvas) {
+    public void draw(@NonNull Canvas canvas) {
         // Get the drawable's bounds
         int width = getBounds().width();
         int height = getBounds().height();
         float radius = Math.min(width, height) / 2;
 
         // Draw a red circle in the center
-        canvas.drawCircle(width/2, height/2, radius, mRedPaint);
+        canvas.drawCircle((int) (width / 1.5), height / 2, radius, mRedPaint);
     }
 
     @Override
