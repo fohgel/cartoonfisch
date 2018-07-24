@@ -62,7 +62,7 @@ class Permissions {
         }
 
         // check permissions
-        for (String permission : PERMISSIONS) {
+        for (final String permission : PERMISSIONS) {
             if (ContextCompat.checkSelfPermission(activity, permission) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
