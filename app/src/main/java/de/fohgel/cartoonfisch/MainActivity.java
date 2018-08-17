@@ -27,6 +27,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import hugo.weaving.DebugLog;
 
+import de.fohgel.cartoonfisch.objectdetectohr.ObjectDetectohr;
+
 public class MainActivity extends AppCompatActivity implements Permissions.PermissionsAvailableListener {
     private Permissions mPermissions;
     private final List<File> fooohtooohFileList = new ArrayList<>();
@@ -69,6 +71,9 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
 //        Canvas canvas = new Canvas();
 //        canvas.drawLine(0, 0, 200, 200, paint);
 //        rootView.draw(canvas);
+
+        Intent intent = new Intent(this, ObjectDetectohr.class);
+        startActivity(intent);
     }
 
     @DebugLog
