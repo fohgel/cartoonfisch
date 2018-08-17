@@ -10,7 +10,6 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.ImageView;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,8 +33,6 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
         mPermissions = new Permissions(this);
         mPermissions.checkPermissions();
         // put init code in init()
-
-        ButterKnife.bind(this);
     }
 
     @Override
@@ -50,17 +47,18 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
     }
 
     private void init() {
-        MyDrawable myDrawable = new MyDrawable();
-
-        ImageView imageView = new ImageView(this);
-        imageView.setImageDrawable(myDrawable);
-        setContentView(imageView);
-/*        View rootView = findViewById(android.R.id.content);
-        Paint paint = new Paint();
-        paint.setColor(Color.BLACK);
-        Canvas canvas = new Canvas();
-        canvas.drawLine(0, 0, 200, 200, paint);
-        rootView.draw(canvas);*/
+//        MyDrawable myDrawable = new MyDrawable();
+//
+//        ImageView imageView = new ImageView(this);
+//        imageView.setImageDrawable(myDrawable);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+//        View rootView = findViewById(android.R.id.content);
+//        Paint paint = new Paint();
+//        paint.setColor(Color.BLACK);
+//        Canvas canvas = new Canvas();
+//        canvas.drawLine(0, 0, 200, 200, paint);
+//        rootView.draw(canvas);
     }
 
     @OnClick(R.id.button)
