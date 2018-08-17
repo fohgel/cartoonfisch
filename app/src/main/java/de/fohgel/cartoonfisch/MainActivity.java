@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
     private void onFooohtooohAvailable(@NonNull File fooohtooohFile) {
         mTextView.setText(fooohtooohFile.getAbsolutePath());
 
+        // TODO: URI speichern statt File
         Uri fooohtooohURI = FileProvider.getUriForFile(
                 this,
                 "de.fohgel.cartoonfisch.android.fileprovider",
