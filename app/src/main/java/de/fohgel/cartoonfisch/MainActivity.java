@@ -10,8 +10,11 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,13 +22,19 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import hugo.weaving.DebugLog;
 
 public class MainActivity extends AppCompatActivity implements Permissions.PermissionsAvailableListener {
     private Permissions mPermissions;
     private final List<File> fooohtooohFileList = new ArrayList<>();
     private static final int CAMERA_REQUEST_MINIMUM = 42;
+    @BindView(R.id.textView2)
+    TextView mTextView;
+    @BindView(R.id.imageView)
+    ImageView mImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
         init();
     }
 
+    @DebugLog
     private void init() {
 //        MyDrawable myDrawable = new MyDrawable();
 //
@@ -61,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
 //        rootView.draw(canvas);
     }
 
+    @DebugLog
     @OnClick(R.id.button)
     void startCamera() {
         Intent fooohtooohIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -89,23 +100,52 @@ public class MainActivity extends AppCompatActivity implements Permissions.Permi
         }
     }
 
+    @DebugLog
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode >= CAMERA_REQUEST_MINIMUM && resultCode == RESULT_OK) {
-            Bundle extras = data.getExtras();
-            if (extras != null) {
-                Object thumbnail = extras.get("data");
-                if (thumbnail != null) {
-                    File fooohtooohFile = fooohtooohFileList.get(requestCode - CAMERA_REQUEST_MINIMUM);
-                    onFooohtooohAvailable(fooohtooohFile, (Bitmap) thumbnail);
-                }
-            }
+            File fooohtooohFile = fooohtooohFileList.get(requestCode - CAMERA_REQUEST_MINIMUM);
+            onFooohtooohAvailable(fooohtooohFile);
         }
     }
 
-    private void onFooohtooohAvailable(@NonNull File image, @NonNull Bitmap thumbnail) {
+    @DebugLog
+    private void onFooohtooohAvailable(@NonNull File fooohtooohFile) {
+        mTextView.setText(fooohtooohFile.getAbsolutePath());
 
-        // TODO: go on with bitmap
+        Uri fooohtooohURI = FileProvider.getUriForFile(
+                this,
+                "de.fohgel.cartoonfisch.android.fileprovider",
+                fooohtooohFile
+        );
+
+        Bitmap bitmap;
+        try {
+            bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), fooohtooohURI);
+        } catch (FileNotFoundException e) {
+            Log.e(MainActivity.class.getSimpleName(), "file not found :(", e);
+            return;
+        } catch (IOException e) {
+            Log.e(MainActivity.class.getSimpleName(), "böze exception :(", e);
+            return;
+        }
+
+        onBitmapAvailable(bitmap);
+    }
+
+    @DebugLog
+    private void onBitmapAvailable(@NonNull Bitmap image) {
+        mImageView.setImageBitmap(image);
+    }
+
+    private static Bitmap crupAndScale(Bitmap source, int scale) {
+        int factor = source.getHeight() <= source.getWidth() ? source.getHeight() : source.getWidth();
+        int longer = source.getHeight() >= source.getWidth() ? source.getHeight() : source.getWidth();
+        int x = source.getHeight() >= source.getWidth() ? 0 : (longer - factor) / 2;
+        int y = source.getHeight() <= source.getWidth() ? 0 : (longer - factor) / 2;
+        source = Bitmap.createBitmap(source, x, y, factor, factor);
+        source = Bitmap.createScaledBitmap(source, scale, scale, false);
+        return source;
     }
 
     private File getImageFile() throws IOException {
